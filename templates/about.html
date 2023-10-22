@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Created by Yulyan Glonti {% endblock %}</h1>
+    <h2>{% block text %}
+        This server (on Digitalocean) is configured as DNS(bind9), WEB(apache2), VPN(wireguard) server.<br> 
+        Web server runs flask web application with sqlite database.<br>
+        <a href="https://github.com/yulyangi/flask-web-app">here link to the app source code</a> 
+    {% endblock %}</h2>
+{% endblock %}
